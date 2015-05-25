@@ -14,4 +14,4 @@
 # Get√
 # 
 # 1.include标签的使用，有效减少代码的冗余程度并增强代码可读性
-# 2.tab的制作，根据不同的需求可通过使用ViewPager或Fragment或二者相结合实现
+# 2.根据不同的需求可通过使用ViewPager或Fragment或二者相结合实现tab效果
