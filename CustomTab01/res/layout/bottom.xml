@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:orientation="horizontal"
+    android:baselineAligned="false"
+    android:background="@android:drawable/title_bar" >
+    
+        <TextView 
+        	android:id="@+id/tab_1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/tab_1"
+            android:textColor="@android:color/darker_gray" />
+        
+        <TextView 
+        	android:id="@+id/tab_2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/tab_2"
+            android:textColor="@android:color/white" />
+        
+        <TextView 
+        	android:id="@+id/tab_3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/tab_3"
+            android:textColor="@android:color/white" />
+
+        <TextView 
+        	android:id="@+id/tab_4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/tab_4"
+            android:textColor="@android:color/white" />
+
+</LinearLayout>
