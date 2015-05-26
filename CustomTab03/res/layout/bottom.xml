@@ -14,7 +14,7 @@
             android:layout_gravity="center"
             android:gravity="center"
             android:text="@string/tab_1"
-            android:textColor="@android:color/darker_gray" />
+            android:textColor="@android:color/white" />
         
         <TextView 
         	android:id="@+id/tab_2"
