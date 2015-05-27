@@ -118,7 +118,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
 	
 	private void setSelect(int index) {
 		setTab(index);
-		mViewPager.setCurrentItem(index);
+		mViewPager.setCurrentItem(index, false);
 	}
 
 	private void setTab(int index) {

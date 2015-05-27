@@ -142,19 +142,19 @@ public class MainActivity extends Activity implements OnClickListener {
 		reset();
 		switch (v.getId()) {
 		case R.id.tab_1:
-			mViewPager.setCurrentItem(0);
+			mViewPager.setCurrentItem(0, false);
 			mTab1.setTextColor(getResources().getColor(android.R.color.darker_gray));
 			break;
 		case R.id.tab_2:
-			mViewPager.setCurrentItem(1);
+			mViewPager.setCurrentItem(1, false);
 			mTab2.setTextColor(getResources().getColor(android.R.color.darker_gray));
 			break;
 		case R.id.tab_3:
-			mViewPager.setCurrentItem(2);
+			mViewPager.setCurrentItem(2, false);
 			mTab3.setTextColor(getResources().getColor(android.R.color.darker_gray));
 			break;
 		case R.id.tab_4:
-			mViewPager.setCurrentItem(3);
+			mViewPager.setCurrentItem(3, false);
 			mTab4.setTextColor(getResources().getColor(android.R.color.darker_gray));
 			break;
 
